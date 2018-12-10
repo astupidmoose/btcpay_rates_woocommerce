@@ -30,3 +30,9 @@ Simply Delete all content between //COIN Coin and //end Coin
 #Shortcode
 
 You can pull these rates anywhere or anytime in woocommerce using the shortcode [crypto_rates]
+
+
+# Issues Q&A
+
+Question: I received an error when editing the theme - "Scrape nonce check failed. Please try again."
+Answer: There may be issues with some plugins you have optimizing your store. You should disable any caching and image optimization plugins and then update the theme. (always backup first)
