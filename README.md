@@ -8,8 +8,11 @@ Open your "Function.php" in your theme's editor. It might be best to use a child
 Edit the following variable with your own settings:
 
 $serverurl - Add your default URL for the login screen of your BTCPay login
-$storeID - This is the actual store ID from BTCpay. To find this, setup a store then click "Stores>Settings" and copy the ID field.
+
+$storeID - This is the actual store ID from BTCpay. To find this, setup a storethen click "Stores>Settings" and copy the ID field.
+
 $localcurrency - Three digit currency code such as USD/CAD/EUR. 
+
 $introtext - *Optional - used as an intro. Example "Current Exchange Rates:".
 
 # Adding / Removing Coins
