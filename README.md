@@ -2,7 +2,7 @@
 This is a small script to display BTC currency rates on your woocommerce installation. 
 
 # How to Install
-Open your "Function.php" in your theme's editor. It might be best to use a child theme to avoid any overwrites later on. 
+Copy the contents of functions.php into your "function.php" in your theme's editor. It might be best to use a child theme to avoid any overwrites later on. 
 
 # How to Setup
 Edit the following variable with your own settings:
@@ -24,3 +24,7 @@ Using Bitcoin as a template, simply copy and paste all code between //BTC Bitcoi
 
 To Remove:
 Simply Delete all content between //COIN Coin and //end Coin
+
+#Shortcode
+
+You can pull these rates anywhere or anytime in woocommerce using the shortcode [crypto_rates]
