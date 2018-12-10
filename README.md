@@ -2,6 +2,8 @@
 This is a small script to display BTC currency rates on your woocommerce installation. 
 
 # How to Install
+Always backup your functions.php file before editing!
+
 Copy the contents of functions.php into your "function.php" in your theme's editor. It might be best to use a child theme to avoid any overwrites later on. 
 
 # How to Setup
