@@ -9,7 +9,7 @@ Copy the contents of functions.php into your "function.php" in your theme's edit
 # How to Setup
 Edit the following variable with your own settings:
 
-$serverurl - Add your default URL for the login screen of your BTCPay login
+$serverurl - Add your default URL for the login screen of your BTCPay login. (Make sure you use HTTPS:// if available)
 
 $storeID - This is the actual store ID from BTCpay. To find this, setup a storethen click "Stores>Settings" and copy the ID field.
 
