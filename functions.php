@@ -24,6 +24,8 @@ function cryptorates_shortcode() {
 			break;
 		}
 	}	
+
+	//end Bitcoin
 	
 	//LTC Litecoin
 	$cryptocode = "LTC";
@@ -40,6 +42,8 @@ function cryptorates_shortcode() {
 			break;
 		}
 	}
+
+	//end Litecoin
 	
 	//DOGE Dogecoin
 	$cryptocode = "DOGE";
@@ -57,6 +61,8 @@ function cryptorates_shortcode() {
 		}
 	}
 
+	// end Dogecoin
+
 	//DASH Dash
 	$cryptocode = "DASH";
 
@@ -72,5 +78,10 @@ function cryptorates_shortcode() {
 			break;
 		}
 	}
+
+	// end Dash
+
 }
+
+// Add Shortcode for reference in woocommerce
 add_shortcode( 'crypto_rates', 'cryptorates_shortcode' );
