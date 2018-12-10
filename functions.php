@@ -55,7 +55,7 @@ function cryptorates_shortcode() {
 		if($row['code'] == $localcurrency){
 			echo "1 " . $cryptocode . " = ";
 			$currencyrate = $row['rate'];
-			$currencyrate = number_format($currencyrate, 2, '.', '');
+			$currencyrate = number_format($currencyrate, 4, '.', '');
 			echo $currencyrate . ' ' . $localcurrency . ' | ';
 			break;
 		}
