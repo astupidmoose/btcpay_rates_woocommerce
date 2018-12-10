@@ -4,7 +4,7 @@ function cryptorates_shortcode() {
 	$storeID = '*Enter your store ID here*';
 	$localcurrency = '*Enter your local currency, such as "USD", or "CAD"*';
 	
-	$introtext = '<p style="font-size:11px;color:#ffc313;text-transform:uppercase;"> Current Exchange Rate: <span style="color:white"> ';
+	$introtext = 'Current Exchange Rate: ';
 	echo $introtext;
 	
 	//BTC Bitcoin
